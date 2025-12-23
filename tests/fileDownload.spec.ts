@@ -49,4 +49,8 @@ test("Handling file downloads", async ({page})=>{
 
     await expect(fs.existsSync(filePath)).toBe(false)
 
+    // Keyboard operations - Last session
+    // Basic of API
+    // Visual Testing - Comparing the screenshot page by page
+
 })
