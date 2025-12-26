@@ -70,7 +70,7 @@ class Employee{
     empName: string
     empAge : number
     private empSalary
-    readonly offer = 30000
+    readonly offer 
     static company = "ABC"
 
     constructor(id, name, age, empSalary)
@@ -79,6 +79,7 @@ class Employee{
         this.empName = name // emp.empName = "Rahul"
         this.empAge = age  // emp.empAge = 30
         this.empSalary = empSalary // emp.empSalary = 1000000
+        this.offer = 1000000
     }
 
     employeeInformation() :void{

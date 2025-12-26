@@ -33,6 +33,9 @@ test("Handling input field and clicking on an element", async function({page}){
    // Expect there should be an element which have a text as "Logged In Successfully"
 
 
+   // Page layer - locators and methods - loginIntoApplication(){.....}
+   // Test layer - loginPage.loginIntoApplication(username, password), assertion to check if the l
+
 })
 
 test("Handling radio button and checkbox", async ({page})=>{
