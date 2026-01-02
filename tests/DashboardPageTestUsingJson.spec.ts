@@ -47,6 +47,10 @@ test("View product details", async ()=>{
 // }
 // console.log(data1.productName);
 
+
+let i = 10
+let j = [10,20,30]
+
 // Data driven testing using json
 // data from excel
 
