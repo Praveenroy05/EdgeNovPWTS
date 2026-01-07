@@ -12,7 +12,7 @@ test.beforeEach(async ({page})=>{
     dashboardPage = new DashboardPage(page)
 })
 for(let product of products){
-    test(`View product details for ${product.productName}`, async ()=>{
+    test(`View product details for ${product.productName}`,{tag : '@smoke'}, async ()=>{
         await loginPage.launchURL(product.url)
         await loginPage.loginIntoApplication(product.email, product.password)
         await expect(loginPage.homePageIdentifier).toBeVisible()
